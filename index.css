@@ -1,0 +1,130 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.contenedor{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 100%;
+}
+
+.color-negro{
+    background: rgba(0, 0, 0, 0.877);
+    height: 100%;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-image: url('./img/img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+header .color-negro .contenedor .contenedor-navegador{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+    align-items: center;
+}
+
+header .color-negro .contenedor .contenedor-navegador .contenedor-logo .logo a{
+    color: floralwhite;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header .color-negro .contenedor .contenedor-navegador .navegador ul{
+    list-style: none;
+}
+
+header .color-negro .contenedor .contenedor-navegador .navegador ul li{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+header .color-negro .contenedor .contenedor-navegador .navegador ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: floralwhite;
+}
+
+header .color-negro .contenedor .informacion-mia{
+    display: flex;
+    height: 100hv;
+    
+}
+
+header .color-negro .contenedor .informacion-mia .contenedor-imagen{
+    width: 50%;
+    height: 100% !important;
+    overflow: hidden;
+}
+
+header .color-negro .contenedor .informacion-mia .contenedor-imagen img{
+    width: 100%; 
+    height: 100%;
+    vertical-align: top;
+    margin-bottom: 40px;
+}
+
+header .color-negro .contenedor .informacion-mia .contenedor-info{
+    width: 50%;
+    align-self: center;
+    padding: 0px 60px;
+}
+
+.texto-naranja{
+    color: #c18f59;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header .color-negro .contenedor .informacion-mia .contenedor-info .contenedor-nombre .primer-nombre{
+    font-size: 74px;
+    color: #fff;
+    letter-spacing: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+}
+
+header .color-negro .contenedor .informacion-mia .contenedor-info .contenedor-nombre .segundo-nombre{
+    font-size: 74px;
+    color: #fff;
+    letter-spacing: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+header .que-soy{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header .texto-soy{
+    color: #777;
+    margin-bottom: 42px;
+    font-size: 18px;
+}
+
+header .boton-biografia a{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #fff;
+    color: #c18f59;
+    font-weight: bold;
+}
